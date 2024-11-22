@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { DarkThemeToggle, Flowbite } from "flowbite-react";
 import { Button, Navbar, NavbarBrand,  NavbarToggle} from "flowbite-react";
 const NavbarComponent = () => {
@@ -12,7 +11,6 @@ const NavbarComponent = () => {
                     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">nasa project</span>
                 </NavbarBrand>
                 <div className="flex md:order-2">
-                    <Button>Get started</Button>
                     <NavbarToggle />
                 </div>
 

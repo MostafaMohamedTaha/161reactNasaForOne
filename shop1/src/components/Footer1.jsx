@@ -7,21 +7,20 @@ const Footer1 = () => {
         <div>
             <Accordion className='dark:bg-slate-900 m-4'>
                 <AccordionPanel>
-                    <AccordionTitle>What is Flowbite?</AccordionTitle>
+                    <AccordionTitle>Lorem, ipsum dolor.</AccordionTitle>
                     <AccordionContent>
                         <p className="mb-2 text-gray-500 dark:text-gray-400">
-                            Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons,
-                            dropdowns, modals, navbars, and more.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet similique optio fugiat quo, corrupti quia ducimus ex, at minima sint debitis, nihil provident vero ut est error quae ipsa qui.
                         </p>
                         <p className="text-gray-500 dark:text-gray-400">
-                            Check out this guide to learn how to&nbsp;
+                            Lorem ipsum dolor sit amet.&nbsp;
                             <a
                                 href="https://flowbite.com/docs/getting-started/introduction/"
                                 className="text-cyan-600 hover:underline dark:text-cyan-500"
                             >
                                 get started&nbsp;
                             </a>
-                            and start developing websites even faster with components on top of Tailwind CSS.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quibusdam..
                         </p>
                     </AccordionContent>
                 </AccordionPanel>
@@ -29,35 +28,31 @@ const Footer1 = () => {
                     <AccordionTitle>Is there a Figma file available?</AccordionTitle>
                     <AccordionContent>
                         <p className="mb-2 text-gray-500 dark:text-gray-400">
-                            Flowbite is first conceptualized and designed using the Figma software so everything you see in the library
-                            has a design equivalent in our Figma file.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatem incidunt nobis aliquam dolorem eaque quasi neque illum ea officiis? Ad doloribus consectetur aspernatur aut eum aliquid recusandae, nesciunt quod.
                         </p>
                         <p className="text-gray-500 dark:text-gray-400">
                             Check out the
                             <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
                                 Figma design system
                             </a>
-                            based on the utility classes from Tailwind CSS and components from Flowbite.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur voluptate accusantium tempore aperiam dolorem fugit officia nobis, sequi provident, expedita eligendi ea ducimus alias vitae error maxime libero officiis culpa nulla molestias illum unde quis delectus minus! Qui, debitis. Sequi.
                         </p>
                     </AccordionContent>
                 </AccordionPanel>
                 <AccordionPanel>
-                    <AccordionTitle>What are the differences between Flowbite and Tailwind UI?</AccordionTitle>
+                    <AccordionTitle>What are the Tailwind UI?</AccordionTitle>
                     <AccordionContent>
                         <p className="mb-2 text-gray-500 dark:text-gray-400">
-                            The main difference is that the core components from Flowbite are open source under the MIT license, whereas
-                            Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone
-                            components, whereas Tailwind UI offers sections of pages.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi magnam veniam totam soluta ducimus asperiores inventore fugiat nesciunt officiis labore nobis velit non quibusdam fuga recusandae itaque, dolorem porro quos molestias ut ex magni. Voluptatem itaque commodi quas nisi asperiores!
                         </p>
                         <p className="mb-2 text-gray-500 dark:text-gray-400">
-                            However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no
-                            technical reason stopping you from using the best of two worlds.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, sed. Impedit esse vel quas ipsa porro repellat perspiciatis ratione eos!
                         </p>
                         <p className="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
                         <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
                             <li>
                                 <a href="https://flowbite.com/pro/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                                    Flowbite Pro
+                                    Lorem, ipsum.
                                 </a>
                             </li>
                             <li>
@@ -66,7 +61,7 @@ const Footer1 = () => {
                                     rel="nofollow"
                                     className="text-cyan-600 hover:underline dark:text-cyan-500"
                                 >
-                                    Tailwind UI
+                                    Lorem, ipsum dolor.
                                 </a>
                             </li>
                         </ul>
@@ -74,12 +69,12 @@ const Footer1 = () => {
                 </AccordionPanel>
             </Accordion>
             <Footer container>
-                <FooterCopyright href="#" by="Flowbite™" year={2022} />
+                <FooterCopyright  by="mostafa taha" year={2024} />
                 <FooterLinkGroup>
-                    <FooterLink href="#">About</FooterLink>
-                    <FooterLink href="#">Privacy Policy</FooterLink>
-                    <FooterLink href="#">Licensing</FooterLink>
-                    <FooterLink href="#">Contact</FooterLink>
+                    <FooterLink >About</FooterLink>
+                    <FooterLink >Privacy Policy</FooterLink>
+                    <FooterLink >Licensing</FooterLink>
+                    <FooterLink >Contact</FooterLink>
                 </FooterLinkGroup>
             </Footer>
         </div>

@@ -4,8 +4,6 @@ import Project1 from './components/Project1'
 import Footer1 from './components/Footer1'
 import 'flowbite'
 function App() {
-  
-
   return (
     <div className='dark:bg-slate-900'>
     <NavbarComponent/>

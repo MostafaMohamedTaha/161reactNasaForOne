@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react'
 
-// "use client";
-
 import { Button, Drawer, Sidebar, TextInput } from "flowbite-react";
 import { useState } from "react";
 import {
@@ -23,7 +21,6 @@ const Sidebar1 = () => {
 
     const handleClose = () => setIsOpen(false);
     const [data, setData] = useState(null)
-    const [loading, setLoading] = useState(false)
 
     useEffect(() => {
         async function fetchDataFromApi() {
@@ -43,7 +40,7 @@ const Sidebar1 = () => {
     return (
         <div>
             <div className="flex min-h-[10vh] items-center justify-center">
-                <Button onClick={() => setIsOpen(true)}>Show navigation</Button>
+                <Button onClick={() => setIsOpen(true)}>Show Mars Data</Button>
             </div>
             {
                 data ?
@@ -62,13 +59,13 @@ const Sidebar1 = () => {
                                         <Sidebar.Items>
                                             <Sidebar.ItemGroup>
                                                 <Sidebar.Item >
-                                                Copyright :{data.copyright}
+                                                    Copyright :{data.copyright}
                                                 </Sidebar.Item>
                                                 <Sidebar.Item  >
-                                                Date: {data.date}
+                                                    Date: {data.date}
                                                 </Sidebar.Item>
                                                 <Sidebar.Item  >
-                                                <img src={data.hdurl} alt="" />
+                                                    <img src={data.hdurl} alt="" />
                                                 </Sidebar.Item>
 
 
@@ -79,22 +76,15 @@ const Sidebar1 = () => {
 
 
                                             </Sidebar.ItemGroup>
-                                            <Sidebar.ItemGroup>
-                                                <Sidebar.Item href="https://github.com/themesberg/flowbite-react/" icon={HiClipboard}>
-                                                    Docs
-                                                </Sidebar.Item>
-                                                <Sidebar.Item href="https://flowbite-react.com/" icon={HiCollection}>
-                                                    Components
-                                                </Sidebar.Item>
-                                                <Sidebar.Item href="https://github.com/themesberg/flowbite-react/issues" icon={HiInformationCircle}>
-                                                    Help
-                                                </Sidebar.Item>
-                                            </Sidebar.ItemGroup>
+                                            <div className='flex justify-center'>
+                                                <Button onClick={() => setIsOpen(false)} >x</Button>
+                                            </div>
                                         </Sidebar.Items>
                                     </div>
                                 </div>
                             </Sidebar>
                         </Drawer.Items>
+
                     </Drawer>) :
                     <Drawer open={isOpen} onClose={handleClose}>
                         <Drawer.Header title="MENU" titleIcon={() => <></>} />
